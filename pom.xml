@@ -5,17 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.cst</groupId>
-    <artifactId>bilistore_parent</artifactId>
+    <artifactId>SSMConfig</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <modules>
-        <module>bilistore_common</module>
-        <module>bilistore_manager</module>
-        <module>bilistore_service_restful</module>
-        <module>bilistore_foreWeb</module>
-    </modules>
 
-    <packaging>pom</packaging>
+
+    <packaging>war</packaging>
 
     <properties>
         <java.version>1.8</java.version>
