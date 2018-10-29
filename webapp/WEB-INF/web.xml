@@ -39,7 +39,7 @@
 
     <!--SpringMVC前端控制器及SpringMVC.xml-->
     <servlet>
-        <servlet-name>bilistore_manager</servlet-name>
+        <servlet-name>dispatcherServlet</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
@@ -53,7 +53,7 @@
 
     </servlet>
     <servlet-mapping>
-        <servlet-name>bilistore_manager</servlet-name>
+        <servlet-name>dispatcherServlet</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
     <!--/会拦截所有请求，包括静态资源，我们需要在springMVC中配置静态资源的映射-->
